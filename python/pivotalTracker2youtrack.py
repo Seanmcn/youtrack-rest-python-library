@@ -159,8 +159,7 @@ def pivotalTracker2youtrack(source_api_key, source_project_id,
 
     source = PivotalTrackerClient(source_api_key, source_project_id)
     # Todo Sean: fix
-    target = Connection(target_url, target_login, target_password, None,
-                        "perm:c2Vhbm1jbg==.VG9rZW4=.a3KymGhp2z5Gt5JcaGgv1DiRvXBTVu")
+    target = Connection(target_url, target_login, target_password)
 
     # for project in projects:
     #     project_id, start, end = project
